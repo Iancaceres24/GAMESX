@@ -508,7 +508,7 @@
   }
 }
 #plataformas {
-  background-image: url(../img/fondo1.jpg);
+  background-image: url(../img/index_fondo1.jpg);
   background-size: 100%;
 }
 
@@ -533,33 +533,61 @@
   color: white;
 }
 
-.tex_min, .link_serv_min, .subtitulos_min, .tex_min_fondo {
+.tex_min, .link_serv_min, .subtitulos_min, .tex_min_fondo, .tex_min_gran {
   color: greenyellow;
   font-family: "Bruno Ace", cursive;
   font-size: 3rem;
   text-decoration: none;
 }
 @media (max-width: 992px) {
-  .tex_min, .link_serv_min, .subtitulos_min, .tex_min_fondo {
+  .tex_min, .link_serv_min, .subtitulos_min, .tex_min_fondo, .tex_min_gran {
     font-size: 2rem;
   }
 }
 @media (max-width: 768px) {
-  .tex_min, .link_serv_min, .subtitulos_min, .tex_min_fondo {
+  .tex_min, .link_serv_min, .subtitulos_min, .tex_min_fondo, .tex_min_gran {
     text-align: center;
     font-size: 2.5rem;
   }
 }
 @media (max-width: 576px) {
-  .tex_min, .link_serv_min, .subtitulos_min, .tex_min_fondo {
+  .tex_min, .link_serv_min, .subtitulos_min, .tex_min_fondo, .tex_min_gran {
     text-align: center;
     font-size: 2rem;
+  }
+}
+
+.tex_min_gran {
+  font-size: 3.2rem;
+}
+@media (max-width: 992px) {
+  .tex_min_gran {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .tex_min_gran {
+    text-align: center;
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 576px) {
+  .tex_min_gran {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    background-color: rgba(30, 93, 43, 0.562);
   }
 }
 
 .tex_min_fondo {
   background-color: rgba(30, 93, 43, 0.26);
   border-radius: 2rem;
+}
+@media (max-width: 576px) {
+  .tex_min_fondo {
+    background-color: rgba(30, 93, 43, 0.507);
+  }
 }
 
 .subtitulos_min {
